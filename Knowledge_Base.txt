@@ -1,0 +1,239 @@
+Question: What is a runtime error?
+Answer: A runtime error is an error that occurs while a program is executing. It happens after the program has started running and may cause it to crash or behave unexpectedly.
+
+Question: When do runtime errors occur?
+Answer: Runtime errors occur during the execution phase of a program, after successful compilation and when the program is running.
+
+Question: What is the difference between syntax error and runtime error?
+Answer: A syntax error occurs due to incorrect code structure and prevents compilation, while a runtime error occurs during execution after the program starts running.
+
+Question: What is the difference between compile-time error and runtime error?
+Answer: Compile-time errors occur during code compilation and prevent execution, whereas runtime errors occur during execution after compilation succeeds.
+
+Question: Why do runtime errors occur?
+Answer: Runtime errors occur due to invalid operations such as division by zero, accessing invalid memory, incorrect input, or logic errors in the program.
+
+Question: What happens when a runtime error occurs?
+Answer: When a runtime error occurs, the program may crash, terminate abruptly, or produce incorrect results depending on the type of error.
+
+Question: Can runtime errors be detected before execution?
+Answer: No, runtime errors cannot be detected before execution because they occur only when the program is running.
+
+Question: Are runtime errors always fatal?
+Answer: No, some runtime errors can be handled using exception handling mechanisms, allowing the program to continue execution.
+
+Question: What are common examples of runtime errors?
+Answer: Common examples include division by zero, null pointer access, file not found, and array index out of bounds.
+
+Question: What is an exception in runtime errors?
+Answer: An exception is a specific type of runtime error that can be caught and handled using programming constructs like try-catch blocks.
+
+Question: How are runtime errors different from logical errors?
+Answer: Runtime errors cause the program to crash or stop, while logical errors allow the program to run but produce incorrect results.
+
+Question: What is error handling?
+Answer: Error handling is the process of detecting, managing, and responding to runtime errors to prevent program crashes.
+
+Question: What is exception handling?
+Answer: Exception handling is a technique used to handle runtime errors using constructs like try, catch, and finally to maintain program stability.
+
+Question: What causes a program to crash at runtime?
+Answer: A program crashes at runtime due to errors like invalid memory access, division by zero, or unhandled exceptions.
+
+Question: What is a fatal runtime error?
+Answer: A fatal runtime error is an error that cannot be handled by the program and causes immediate termination.
+
+Question: What is a non-fatal runtime error?
+Answer: A non-fatal runtime error is an error that can be handled using exception handling, allowing the program to continue execution.
+
+Question: How can runtime errors be prevented?
+Answer: Runtime errors can be prevented by validating input, using proper exception handling, and writing defensive code.
+
+Question: What role does input validation play in runtime errors?
+Answer: Input validation helps prevent runtime errors by ensuring that user input is correct and within expected limits before processing.
+
+Question: What is debugging in relation to runtime errors?
+Answer: Debugging is the process of identifying, analyzing, and fixing runtime errors in a program.
+
+Question: Why is understanding runtime errors important?
+Answer: Understanding runtime errors helps developers write reliable programs, debug issues efficiently, and improve software quality.
+
+Question: What is ZeroDivisionError in Python?
+Answer: It occurs when a number is divided by zero during program execution.
+
+Question: What is IndexError in Python?
+Answer: It occurs when trying to access an index that is outside the range of a list or sequence.
+
+Question: What is TypeError in Python?
+Answer: It occurs when an operation is applied to an inappropriate data type.
+
+Question: What is KeyError in Python?
+Answer: It occurs when trying to access a dictionary key that does not exist.
+
+Question: What is ValueError in Python?
+Answer: It occurs when a function receives a valid type but invalid value.
+
+Question: What is AttributeError in Python?
+Answer: It occurs when an object does not have the requested attribute.
+
+Question: What is ImportError in Python?
+Answer: It occurs when a module or function cannot be imported.
+
+Question: What is NullPointerException in Java?
+Answer: It occurs when trying to use an object reference that is null.
+
+Question: What is ArrayIndexOutOfBoundsException in Java?
+Answer: It occurs when accessing an array index beyond its size.
+
+Question: What is ArithmeticException in Java?
+Answer: It occurs when an illegal arithmetic operation like division by zero is performed.
+
+Question: What is ClassCastException in Java?
+Answer: It occurs when an object is cast to an incompatible class type.
+
+Question: What is NumberFormatException in Java?
+Answer: It occurs when converting a string to a number fails due to invalid format.
+
+Question: What is IllegalArgumentException in Java?
+Answer: It occurs when a method receives an invalid argument.
+
+Question: What is StackOverflowError in Java?
+Answer: It occurs when the call stack exceeds its limit due to deep or infinite recursion.
+
+Question: What is a segmentation fault in C/C++?
+Answer: It occurs when a program accesses invalid memory locations.
+
+Question: What is a dangling pointer in C/C++?
+Answer: It is a pointer that refers to memory that has already been freed.
+
+Question: What is buffer overflow in C/C++?
+Answer: It occurs when writing more data to a buffer than it can hold.
+
+Question: What is memory leak in C/C++?
+Answer: It occurs when allocated memory is not properly released.
+
+Question: What is stack overflow in C/C++?
+Answer: It occurs when too many function calls exhaust stack memory.
+
+Question: What is undefined behavior in C/C++?
+Answer: It occurs when code performs operations that have unpredictable results.
+
+Question: What is a file not found error?
+Answer: It occurs when a program tries to open a file that does not exist at the specified path.
+
+Question: What is permission denied error?
+Answer: It occurs when a program does not have the required permissions to access a file.
+
+Question: What is IOError?
+Answer: It is a general error that occurs during input/output operations like reading or writing files.
+
+Question: What is file corruption error?
+Answer: It occurs when a file is damaged and cannot be read or processed correctly.
+
+Question: What is file access error?
+Answer: It occurs when a file cannot be accessed due to incorrect path or permissions.
+
+Question: What is end-of-file (EOF) error?
+Answer: It occurs when a program tries to read beyond the end of a file.
+
+Question: What is file path error?
+Answer: It occurs when the file path specified is incorrect or invalid.
+
+Question: What is invalid input error?
+Answer: It occurs when the user provides input that does not match expected format or type.
+
+Question: What is input mismatch error?
+Answer: It occurs when input type does not match the expected data type.
+
+Question: What is value error due to input?
+Answer: It occurs when input is of correct type but invalid value.
+
+Question: What is unexpected input error?
+Answer: It occurs when input does not follow expected structure or format.
+
+Question: What is input validation error?
+Answer: It occurs when input fails validation checks like range or format.
+
+Question: What is missing input error?
+Answer: It occurs when required input is not provided by the user.
+
+Question: What is output error?
+Answer: It occurs when a program fails to display or store output correctly.
+
+Question: What is write failure error?
+Answer: It occurs when a program cannot write data to a file or output device.
+
+Question: What is formatting error in output?
+Answer: It occurs when output is displayed incorrectly due to wrong formatting.
+
+Question: What is input/output mismatch error?
+Answer: It occurs when input processing leads to incorrect output results.
+
+Question: What is file read error?
+Answer: It occurs when a program fails to read data from a file.
+
+Question: What is file write error?
+Answer: It occurs when writing data to a file fails due to permission or storage issues.
+
+Question: How can input/output and file errors be prevented?
+Answer: By validating input, checking file paths, and handling exceptions properly.
+
+Question: What is an index out of bounds error?
+Answer: It occurs when a program tries to access an index that is outside the valid range of an array or list.
+
+Question: What does “list index out of range” mean in Python?
+Answer: It means the program is trying to access a list element that does not exist.
+
+Question: What is IndexError in Python?
+Answer: IndexError occurs when a sequence index is out of valid range.
+
+Question: What is ArrayIndexOutOfBoundsException in Java?
+Answer: It occurs when an array index is accessed beyond its defined size.
+
+Question: What causes indexing errors in programs?
+Answer: They are caused by incorrect index values, loop errors, or accessing elements beyond limits.
+
+Question: What is a loop boundary error?
+Answer: It occurs when loops exceed or incorrectly define limits, causing invalid index access.
+
+Question: What is off-by-one error?
+Answer: It is a logical error where loop or index boundaries are off by one, leading to incorrect indexing.
+
+Question: How can indexing errors be prevented?
+Answer: By validating index ranges and using correct loop conditions.
+
+Question: What is negative indexing in Python?
+Answer: Negative indexing allows accessing elements from the end of a list, but incorrect use can cause errors.
+
+Question: What happens when indexing errors occur?
+Answer: The program may crash or throw exceptions during execution.
+
+Question: What is debugging in programming?
+Answer: Debugging is the process of identifying, analyzing, and fixing errors in a program.
+
+Question: What are common debugging techniques?
+Answer: Common techniques include using breakpoints, logging, print statements, and step-by-step execution.
+
+Question: What is a breakpoint in debugging?
+Answer: A breakpoint is a point in the code where execution pauses to inspect variables and program flow.
+
+Question: What is logging in debugging?
+Answer: Logging is recording program events and data to help identify issues during execution.
+
+Question: What is exception handling?
+Answer: Exception handling is a method to detect and manage runtime errors using constructs like try-catch.
+
+Question: What is the purpose of try-catch blocks?
+Answer: Try-catch blocks handle exceptions and prevent program crashes.
+
+Question: What is defensive programming?
+Answer: Defensive programming is writing code that anticipates and safely handles potential errors.
+
+Question: How can runtime errors be prevented?
+Answer: By validating inputs, handling exceptions, and writing clean, tested code.
+
+Question: What is input validation?
+Answer: Input validation ensures that user input is correct and safe before processing.
+
+Question: Why is testing important in debugging?
+Answer: Testing helps identify errors early and ensures the program works correctly in different scenarios.
